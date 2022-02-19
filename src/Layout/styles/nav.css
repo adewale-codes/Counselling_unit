@@ -1,0 +1,9 @@
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    margin-left: 2rem;
+}
+
+.navbar a:hover{
+    color: var(--green);
+}
