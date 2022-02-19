@@ -1,5 +1,6 @@
 import React from 'react'
 import "./styles/about.css"
+import blog1 from "./pages/blog-1.jpg"
 
 export default function About() {
     return (
@@ -10,7 +11,7 @@ export default function About() {
             <div className="row">
 
                 <div className="image">
-                    <img src="./image/about-img.svg" alt="" />
+                    <img src={blog1} alt="Blog 1 pic" />
                 </div>
 
                 <div className="content">
