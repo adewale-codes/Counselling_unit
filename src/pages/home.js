@@ -1,11 +1,15 @@
 import React from 'react'
 import "./styles/home.css"
+import { ReactComponent as Homeimg } from './image/home-img.svg'
+
 export default function Home() {
     return (
     <section className="home" id="home">
 
         <div class="image">
-            <img src="./image/home-img.svg" alt="" />
+            <div>
+                <Homeimg />
+            </div>
         </div>
 
         <div class="content">

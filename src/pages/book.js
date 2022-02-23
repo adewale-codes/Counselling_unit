@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles/book.css"
-
+import { ReactComponent as Bookimg } from './image/book-img.svg'
 export default function Book() {
     return (
         <section className="book" id="book">
@@ -10,7 +10,9 @@ export default function Book() {
         <div className="row">
 
             <div className="image">
-                <img src="./image/book-img.svg" alt="" />
+                <div>
+                    <Bookimg />
+                </div>
             </div>
 
             <form action="">

@@ -1,5 +1,8 @@
 import React from 'react'
 import "./styles/blogs.css"
+import blog1 from "./image/blog-1.jpg"
+import blog2 from "./image/blog-2.jpg"
+import blog3 from "./image/blog-3.jpg"
 
 export default function Blogs() {
     return (
@@ -11,7 +14,7 @@ export default function Blogs() {
 
         <div class="box">
             <div class="image">
-                <img src="./image/blog-1.jpg" alt="" />
+                <img src={blog1} alt="" />
             </div>
             <div class="content">
                 <div class="icon">
@@ -26,7 +29,7 @@ export default function Blogs() {
 
         <div class="box">
             <div class="image">
-                <img src="./image/blog-2.jpg" alt="" />
+                <img src={blog2} alt="" />
             </div>
             <div class="content">
                 <div class="icon">
@@ -41,7 +44,7 @@ export default function Blogs() {
 
         <div class="box">
             <div class="image">
-                <img src="./image/blog-3.jpg" alt="" />
+                <img src={blog3} alt="" />
             </div>
             <div class="content">
                 <div class="icon">

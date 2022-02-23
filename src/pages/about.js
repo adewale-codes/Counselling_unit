@@ -1,5 +1,6 @@
 import React from 'react'
 import "./styles/about.css"
+import { ReactComponent as Aboutimg } from './image/about-img.svg'
 
 export default function About() {
     return (
@@ -10,7 +11,9 @@ export default function About() {
             <div className="row">
 
                 <div className="image">
-                    <img src="./image/about-img.svg" alt="" />
+                    <div>
+                        <Aboutimg />
+                    </div>
                 </div>
 
                 <div className="content">
